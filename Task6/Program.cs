@@ -4,11 +4,15 @@
     {
         static void Main(string[] args)
         {
-            string text = """
+            string vardas = "Paulius";
+            int amzius = 28;
+            string pareigos = "Developer";
+
+            string text = $"""
                 ==========VIZITINE==========
-                Vardas: Paulius
-                Amzius: 28
-                Pareigos: Developer
+                Vardas: {vardas}
+                Amzius: {amzius}
+                Pareigos: {pareigos}
                 ============================
                 """;
 
